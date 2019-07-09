@@ -35,28 +35,6 @@ class PontoTuristico(models.Model):
         return '%s - %s' % (self.nome, self.descricao)
 
 
-    # todo metodo para consultar os motoristas que não tem carga para retornar ao seu destino.
-    def get_consulta_motoristas_sem_carga(self):
-        pass
-
-    # todo total de caminhoes carregados durante o dia, semana e mes
-    def get_total_caminhoes_carregados(self):
-        pass
-
-    # todo quantos caminhoneiros possuem veiculo proprio.
-    def get_total_caminhoneiros_com_veiculo_proprio(self):
-        pass
-
-    # todo mostrar a origem e destino de determinados caminhoes, agrupados por seu tipo.
-    def get_origem_destino_por_tipo(self):
-        pass
-
-
-
-
-
-
-
     def __str__(self):
         return self.nome
 
