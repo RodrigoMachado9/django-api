@@ -3,7 +3,7 @@ dj-static==0.0.6
 Django==2.2.2
 django-filter==2.1.0
 django-startapps-command==2019.4.13
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 Pillow==6.0.0
 pkg-resources==0.0.0
 python-decouple==3.1
